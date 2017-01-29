@@ -1,0 +1,22 @@
+@objects
+	header				                css     div.fusion-secondary-header
+	sw-logo                             css     .fusion-logo-link
+	navigation-links-*                  xpath   //ul[@id='menu-main']/li[not((contains(@id,'mobile-menu-item')))]
+	nav-menu                            css     div.fusion-secondary-main-menu
+    follow-us-popup                     xpath   //div[contains(@class,'fusion-alert')][1]
+
+= Home Page =
+
+    @on desktop
+        header:
+            inside screen 0px top
+            inside screen 0px left
+            inside screen 0px right
+        sw-logo:
+            below header 31px
+            image file sw-logo.png, error %2
+        @forEach [navigation-links-*] as itemName, next as nextItem
+                    ${itemName}:
+                        aligned horizontally all ${nextItem}
+        nav-menu:
+            above follow-us-popup 20px

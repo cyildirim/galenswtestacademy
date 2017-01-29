@@ -1,0 +1,212 @@
+{
+  "testId" : "1-homepage-layout",
+  "name" : "homepage layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check homepage layout",
+      "status" : "info",
+      "time" : 1485691234902,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Home Page",
+        "place" : {
+          "filePath" : "specs/homepage.gspec",
+          "lineNumber" : 8
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "inside screen 0px left",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 14
+            },
+            "name" : "inside screen 0px right",
+            "highlight" : [ "header", "screen" ]
+          } ]
+        }, {
+          "name" : "sw-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "below header 31px",
+            "highlight" : [ "sw-logo", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "image file sw-logo.png, error %2",
+            "highlight" : [ "sw-logo" ]
+          } ]
+        }, {
+          "name" : "navigation-links-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-2",
+            "highlight" : [ "navigation-links-1", "navigation-links-2" ]
+          } ]
+        }, {
+          "name" : "navigation-links-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-3",
+            "highlight" : [ "navigation-links-2", "navigation-links-3" ]
+          } ]
+        }, {
+          "name" : "navigation-links-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-4",
+            "highlight" : [ "navigation-links-3", "navigation-links-4" ]
+          } ]
+        }, {
+          "name" : "navigation-links-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-5",
+            "highlight" : [ "navigation-links-4", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-6",
+            "highlight" : [ "navigation-links-5", "navigation-links-6" ]
+          } ]
+        }, {
+          "name" : "navigation-links-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-7",
+            "highlight" : [ "navigation-links-6", "navigation-links-7" ]
+          } ]
+        }, {
+          "name" : "navigation-links-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-8",
+            "highlight" : [ "navigation-links-7", "navigation-links-8" ]
+          } ]
+        }, {
+          "name" : "navigation-links-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "aligned horizontally all navigation-links-9",
+            "highlight" : [ "navigation-links-8", "navigation-links-9" ]
+          } ]
+        }, {
+          "name" : "nav-menu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "above follow-us-popup 20px",
+            "highlight" : [ "nav-menu", "follow-us-popup" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "screen" : {
+          "area" : [ 0, 0, 1185, 2876 ]
+        },
+        "nav-menu" : {
+          "area" : [ 0, 172, 1185, 54 ]
+        },
+        "navigation-links-4" : {
+          "area" : [ 448, 172, 183, 53 ]
+        },
+        "navigation-links-3" : {
+          "area" : [ 293, 172, 155, 53 ]
+        },
+        "navigation-links-2" : {
+          "area" : [ 230, 172, 64, 53 ]
+        },
+        "navigation-links-1" : {
+          "area" : [ 170, 172, 60, 53 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1185, 45 ]
+        },
+        "navigation-links-9" : {
+          "area" : [ 1000, 172, 15, 53 ]
+        },
+        "follow-us-popup" : {
+          "area" : [ 42, 246, 1100, 222 ]
+        },
+        "navigation-links-8" : {
+          "area" : [ 928, 172, 71, 53 ]
+        },
+        "navigation-links-7" : {
+          "area" : [ 851, 172, 78, 53 ]
+        },
+        "sw-logo" : {
+          "area" : [ 403, 76, 378, 64 ]
+        },
+        "navigation-links-6" : {
+          "area" : [ 760, 172, 91, 53 ]
+        },
+        "navigation-links-5" : {
+          "area" : [ 631, 172, 128, 53 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
